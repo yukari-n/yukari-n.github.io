@@ -28,8 +28,8 @@
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   </head>
   <body>
-    <amp-analytics id="googleanalytics" type="googleanalytics"><script type="application/json">{"vars":{"account":"UA-23643351-6"},"triggers":{"trackPageview":{"on":"visible","request":"pageview"}}}</script></amp-analytics>
-    <div id="updated">Last updated: <time>2019-06-01</time></div>
+    <amp-analytics id="googleanalytics" type="googleanalytics"><script type="application/json">{"vars":{"account":"UA-23643351-6"},"triggers":{"trackPageview":{"on":"visible","request":"pageview"},"elementClicks":{"on":"click","selector":".ga-click","request":"event","vars":{"eventCategory":"${linkCat}","eventAction":"click","eventLabel":"${linkLabel}","eventValue":"${totalEngagedTime}"}}}}</script></amp-analytics>
+    <div id="updated">Last updated: <time>2019-08-18</time></div>
     <h1>yukari-n</h1>
     <amp-img alt="Avatar" src="/kame.png" width="120" height="137" layout="fixed"></amp-img>
 
@@ -66,21 +66,21 @@
 
     <h2>Publications</h2>
     <ul>
-      <li><a rel="noopener" target="_blank" href="https://scholar.google.com/citations?user=j0WSFg0AAAAJ">Google Scholar</a></li>
-      <li><a rel="noopener" target="_blank" href="http://inspirehep.net/author/profile/Yukari.Nakanishi.1">INSPIRE</a></li>
+      <li><a class="ga-click" data-vars-link-cat="Publications" data-vars-link-label="Google Scholar" rel="noopener" target="_blank" href="https://scholar.google.com/citations?user=j0WSFg0AAAAJ">Google Scholar</a></li>
+      <li><a class="ga-click" data-vars-link-cat="Publications" data-vars-link-label="INSPIRE" rel="noopener" target="_blank" href="http://inspirehep.net/author/profile/Yukari.Nakanishi.1">INSPIRE</a></li>
     </ul>
 
     <h2>Contents</h2>
     <p><a href="https://cse.google.com/cse?cx=partner-pub-6677410920529721:6337806089">Search</a></p>
     <ul>
-      <li><a rel="noopener" target="_blank" href="https://reverse-game-php.herokuapp.com/">はさんでひっくりかえすやつ</a></li>
-      <li><a rel="noopener" target="_blank" href="https://lightsout.glitch.me/">全部暗くするやつ</a></li>
+      <li><a class="ga-click" data-vars-link-cat="Contents" data-vars-link-label="はさんでひっくりかえすやつ" rel="noopener" target="_blank" href="https://reverse-game-php.herokuapp.com/">はさんでひっくりかえすやつ</a></li>
+      <li><a class="ga-click" data-vars-link-cat="Contents" data-vars-link-label="全部暗くするやつ" rel="noopener" target="_blank" href="https://lightsout.glitch.me/">全部暗くするやつ</a></li>
     </ul>
 
     <h2>Contribution</h2>
     <ul>
-      <li><a rel="noopener" target="_blank" href="https://github.com/yukari-n">GitHub</a></li>
-      <li><a rel="noopener" target="_blank" href="https://qiita.com/yukari-n">Qiita</a></li>
+      <li><a class="ga-click" data-vars-link-cat="Contribution" data-vars-link-label="GitHub" rel="noopener" target="_blank" href="https://github.com/yukari-n">GitHub</a></li>
+      <li><a class="ga-click" data-vars-link-cat="Contribution" data-vars-link-label="Qiita" rel="noopener" target="_blank" href="https://qiita.com/yukari-n">Qiita</a></li>
     </ul>
     <footer class="align-center">
       &copy; Yukari Nakanishi<br />
