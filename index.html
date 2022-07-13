@@ -1,8 +1,16 @@
 <!doctype html>
-<html amp lang="en">
+<html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VJ4FS2K04P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-VJ4FS2K04P');
+    </script>
     <meta charset="utf-8">
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
     <title>Yukari NAKANISHI</title>
     <link rel="canonical" href="https://yukari-n.github.io/">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -11,10 +19,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
-    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ramabhadra&display=swap" rel="stylesheet">
-    <style amp-custom>
+    <style>
     body{padding:1em;font-family:"Ramabhadra","M PLUS 1p",sans-serif}
     p{margin:0.5em}strong{background-color:#FFF41C}
     a{color:#148AB5}a:hover,a:active{color:#0DA5DE}:visited{color:#0A485E}
@@ -25,13 +32,11 @@
     .align-center{text-align:center}
     #updated{margin:0;border:0;text-align:right;color:#910121;font-weight:lighter}#updated time{color:#000}
     </style>
-    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   </head>
   <body>
-    <amp-analytics id="googleanalytics" type="googleanalytics"><script type="application/json">{"vars":{"account":"UA-23643351-6"},"triggers":{"trackPageview":{"on":"visible","request":"pageview"},"elementClicks":{"on":"click","selector":".ga-click","request":"event","vars":{"eventCategory":"${linkCat}","eventAction":"click","eventLabel":"${linkLabel}","eventValue":"${totalEngagedTime}"}}}}</script></amp-analytics>
-    <div id="updated">Last updated: <time>2019-08-18</time></div>
+    <div id="updated">Last updated: <time>2022-07-13</time></div>
     <h1>yukari-n</h1>
-    <amp-img alt="Avatar" src="/kame.png" width="120" height="137" layout="fixed"></amp-img>
+    <img alt="Avatar" src="/kame.png" width="120" height="137" />
 
     <h2>Affiliation</h2>
     <table>
@@ -66,24 +71,26 @@
 
     <h2>Publications</h2>
     <ul>
-      <li><a class="ga-click" data-vars-link-cat="Publications" data-vars-link-label="Google Scholar" rel="noopener" target="_blank" href="https://scholar.google.com/citations?user=j0WSFg0AAAAJ">Google Scholar</a></li>
-      <li><a class="ga-click" data-vars-link-cat="Publications" data-vars-link-label="INSPIRE" rel="noopener" target="_blank" href="http://inspirehep.net/author/profile/Yukari.Nakanishi.1">INSPIRE</a></li>
+      <li><a onClick="gtag('event', 'click', {'event_category' : 'Publications', 'event_label' : 'Google Scholar'});" rel="noopener" target="_blank" href="https://scholar.google.com/citations?user=j0WSFg0AAAAJ">Google Scholar</a></li>
+      <li><a onClick="gtag('event', 'click', {'event_category' : 'Publications', 'event_label' : 'INSPIRE'});" rel="noopener" target="_blank" href="http://inspirehep.net/author/profile/Yukari.Nakanishi.1">INSPIRE</a></li>
     </ul>
 
     <h2>Contents</h2>
     <ul>
-      <li><a class="ga-click" data-vars-link-cat="Contents" data-vars-link-label="はさんでひっくりかえすやつ" rel="noopener" target="_blank" href="https://reverse-game-php.herokuapp.com/">はさんでひっくりかえすやつ</a></li>
-      <li><a class="ga-click" data-vars-link-cat="Contents" data-vars-link-label="全部暗くするやつ" rel="noopener" target="_blank" href="https://lightsout.glitch.me/">全部暗くするやつ</a></li>
+      <li><a onClick="gtag('event', 'click', {'event_category' : 'Contents', 'event_label' : 'はさんでひっくりかえすやつ'});" rel="noopener" target="_blank" href="https://reverse-game-php.herokuapp.com/">はさんでひっくりかえすやつ</a></li>
+      <li><a onClick="gtag('event', 'click', {'event_category' : 'Contents', 'event_label' : '全部暗くするやつ'});" rel="noopener" target="_blank" href="https://lightsout.glitch.me/">全部暗くするやつ</a></li>
     </ul>
 
     <h2>Contribution</h2>
     <ul>
-      <li><a class="ga-click" data-vars-link-cat="Contribution" data-vars-link-label="GitHub" rel="noopener" target="_blank" href="https://github.com/yukari-n">GitHub</a></li>
-      <li><a class="ga-click" data-vars-link-cat="Contribution" data-vars-link-label="Qiita" rel="noopener" target="_blank" href="https://qiita.com/yukari-n">Qiita</a></li>
+      <li><a onClick="gtag('event', 'click', {'event_category' : 'Contribution', 'event_label' : 'GitHub'});" rel="noopener" target="_blank" href="https://github.com/yukari-n">GitHub</a></li>
+      <li><a onClick="gtag('event', 'click', {'event_category' : 'Contribution', 'event_label' : 'Qiita'});" rel="noopener" target="_blank" href="https://qiita.com/yukari-n">Qiita</a></li>
     </ul>
     <footer class="align-center">
-      &copy; Yukari Nakanishi<br />
-      favicon by <a rel="noreferrer noopener" target="_blank" href="https://favicon.io/emoji-favicons/turtle/">John Sorrentino</a>
+      <p>&copy; Yukari Nakanishi<br />
+      favicon by <a rel="noopener" target="_blank" href="https://favicon.io/emoji-favicons/turtle/">John Sorrentino</a></p>
+      <p>当サイトはGoogleアナリティクス及びCookieを使用しています。<br />
+        Googleアナリティクスでデータが収集、処理される仕組みについては<a rel="noopener" target="_blank" href="https://www.google.com/intl/ja/policies/privacy/partners/">Googleの規約</a>をご覧ください。</p>
     </footer>
   </body>
 </html>
